@@ -181,7 +181,8 @@ int main() {
         textReader("\nHello again, ", 65);
         printf(yourName);
         textReader(" do you need anything? (Y, N) ", 65);
-         scanf("%c", &dec);
+        scanf("%c", &dec);
+        scanf("%c", &dec);
         if (dec == 'Y') {
             textReader("\nHmm", 65);
             dramaticPause(3);
